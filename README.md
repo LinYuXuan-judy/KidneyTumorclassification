@@ -24,14 +24,13 @@ The flow as shown below.
     ```
 * We calculate radiomics feature using three different filiters(original, wavelet and LoG). Finally, a total of 1316 features will be obtained.
 
-* After comparing different radiomics features, we finally use 3D shape-based feature(14 features) to train our classification model because it is the best based on the f1-score of the vghtc 5-fold experiment.
 # Usage
 We provide some [sample cases](./samplecase/) from [TCGA](https://portal.gdc.cancer.gov/projects/TCGA-KIRC) to familiarize you with this classification model before using your own dataset. 
 
 ## 1. Clone repository
 You need to clone our repository and then enter the folder named KidneyCancerClassification.
 ```
-git clone https://github.com/LinYuXuan-judy/KidneyCancerClassification.git
+git clone https://github.com/LinYuXuan-judy/KidneyTumorclassification.git
 cd KidneyCancerClassification
 ```
 ## 2. Feature extraction
