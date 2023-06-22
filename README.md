@@ -75,6 +75,7 @@ python3 featureExtract.py path/to/the/image/directory path/to/the/mask/directory
 You need to run [classification.py](./classification.py) with the following command to classify tumors as benign, low grade or high grade. 
 
 * You don't need to enter the path to the radiomics feature file as we have programmed to fetch its path, *so please do not move the location of the radiomics results file*. 
+* The xgboost version we use is **1.6.4** and the joblib version is **1.2.0**.
 
 ```
 python3 classification.py
